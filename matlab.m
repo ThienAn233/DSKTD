@@ -1,15 +1,15 @@
 data = struct
-data.deltap = 10
-data.pm = 996
-data.vsm =1e-6
-data.L = 0.6
-data.d = 0.002
-data.g = 9.81
+data.deltap = 10;
+data.pm = 996;
+data.vsm =1e-6;
+data.L = 0.6;
+data.d = 0.002;
+data.g = 9.81;
 
-data.R = (128*data.vsm*data.L)/(pi()*data.d^4)
-data.a = (pi()*data.d^2)/4
-data.ct = sqrt(data.L/data.g)
-data.damp = (data.a*data.R)/(2*data.g*data.ct)
+data.R = (128*data.vsm*data.L)/(pi()*data.d^4);
+data.a = (pi()*data.d^2)/4;
+data.ct = sqrt(data.L/data.g);
+data.damp = (data.a*data.R)/(2*data.g*data.ct);
 
 a = data.ct^2;
 b = 2*data.damp*data.ct;
