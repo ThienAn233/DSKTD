@@ -10,6 +10,7 @@ data.R = (128*data.vsm*data.L)/(pi()*data.d^4);
 data.a = (pi()*data.d^2)/4;
 data.ct = sqrt(data.L/data.g);
 data.damp = (data.a*data.R)/(2*data.g*data.ct);
+data
 
 a = data.ct^2;
 b = 2*data.damp*data.ct;
